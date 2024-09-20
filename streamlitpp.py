@@ -77,4 +77,4 @@ st.subheader('Pie Chart of Rating Distribution by Device Name')
 fig11 = px.pie(data, values="Rating", names="Device Name", color_discrete_sequence=px.colors.sequential.RdBu, opacity=0.7, hole=0.5)
 st.plotly_chart(fig11)
 
-st.ballons()
+st.balloons()
