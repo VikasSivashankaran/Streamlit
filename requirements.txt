@@ -2,8 +2,4 @@ pandas
 matplotlib
 streamlit
 plotly
-os
-seaborn
-numpy
-pyspark
-random2
+rich>=10.14.0
