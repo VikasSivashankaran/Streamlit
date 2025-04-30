@@ -247,7 +247,7 @@ fig_sales_exec = px.bar(
     x="Salesperson",
     y="Total Sales ($)",
     color="Salesperson",
-    title="Total Sales by Executive",
+    title="Total Sales by Executive and the period from last_year",
     color_discrete_sequence=px.colors.qualitative.Prism
 )
 fig_sales_exec.update_layout(
@@ -266,7 +266,7 @@ fig_deals_exec = px.bar(
     x="Salesperson",
     y="Total Deals Closed",
     color="Salesperson",
-    title="Total Deals Closed by Executive",
+    title="Total Deals Closed by Executive and the period from last_year",
     color_discrete_sequence=px.colors.qualitative.Prism
 )
 fig_deals_exec.update_layout(
@@ -302,7 +302,7 @@ fig_sku = px.bar(
     y='Total Sales',
     color='Product Name',
     hover_data=['Item Name', 'Count'],
-    title="Total Sales by SKU",
+    title="Total Sales by SKU and the period from last_year",
     color_discrete_sequence=px.colors.qualitative.Bold
 )
 fig_sku.update_layout(
